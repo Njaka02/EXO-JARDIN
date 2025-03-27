@@ -20,7 +20,7 @@ export default function CareScale({ careType, scaleValue }) {
       onClick={() =>
         alert(
           `Cette plante requiert ${valueLorW[scaleValue]} ${
-            careType === "light" ? "de lumiere" : "d'arrosage"
+            careType === "light" ? "de lumiere ☀️" : "d'arrosage 💧"
           }`
         )
       }
